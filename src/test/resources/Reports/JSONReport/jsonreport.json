@@ -1,0 +1,248 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2250300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in facebook page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-03T06:28:09.305Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4278350000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate the login functionality with invalid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-functionality-with-invalid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 239852900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 341915400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user has to fill invalid \"manoj\"and \"34567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manoj\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"34567\"",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_fill_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95794300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user has to click the \"login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1941530300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should navigate to the invalid login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_navigate_to_the_invalid_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 654300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in facebook page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-03T06:28:16.302Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2602670600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate the registration functionality",
+        "description": "",
+        "id": "to-validate-the-registration-functionality-of-facebook-application;to-validate-the-registration-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 255250600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108096800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has to click create new account link",
+            "match": {
+              "location": "RegistrationSteps.the_user_has_to_click_create_new_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1039760000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user has to fill the firstname, lastname and other details",
+            "match": {
+              "location": "RegistrationSteps.the_user_has_to_fill_the_firstname_lastname_and_other_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160374400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user has to click the \"signup\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"signup\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get message successfull registered",
+            "match": {
+              "location": "RegistrationSteps.the_user_should_get_message_successfull_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the registration functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-registration-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/register.feature",
+    "tags": []
+  }
+]
